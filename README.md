@@ -1,38 +1,36 @@
-﻿
-**FortiGate Lab**
+﻿<!-- vscode-markdown-toc -->
+		* 1. [This is topology for test in  lab,](#Thisistopologyfortestinlab)
+		* 2. [Interface](#Interface)
+		* 3. [step 1 Interface  Role](#step1InterfaceRole)
+		* 4. [step 2 SD-WAN Zones](#step2SD-WANZones)
+		* 5. [step 3 Performance SLAs](#step3PerformanceSLAs)
+		* 6. [step 4  SD-WAN Rules](#step4SD-WANRules)
 
-[TOCM]
-
-[TOC]
-
-# SD-WAN
-#### step 1 Interface  Role
-#### step 2 SD-WAN Zones
-#### step 3 Performance SLAs
-#### step 4  SD-WAN Rules
-# DHCP
-
-- -------------------------------------------------------------------------
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 # SD-WAN
- #### This is topology for test in  lab, 
+####  1. <a name='Thisistopologyfortestinlab'></a>This is topology for test in  lab,, 
  
 ![topology](image-sdwan/typology.png)
   - the section sd-wan we are just foucus firewall 1 
    
-#### Interface
+####  2. <a name='Interface'></a>Interface
 
 ![interfacewan](image-sdwan/interfacewan.png)
 - make sure whether interface wan both 2 can connect to the internet.
 
-#### step 1 Interface  Role
+####  3. <a name='step1InterfaceRole'></a>step 1 Interface  Role
 
 ![rolewan1.png](image-sdwan/rolewan1.png)
 ![rolewan2.png](image-sdwan/rolewan2.png)
 ![shorolewan.png](image-sdwan/shorolewan.png)
 
 
-#### step 2 SD-WAN Zones
+####  4. <a name='step2SD-WANZones'></a>step 2 SD-WAN Zones
 
 ![click-virtualwanlink.png](image-sdwan/click-virtualwanlink.png)
 
@@ -46,7 +44,7 @@
 
 ![after-add-int.png](image-sdwan/after-add-int.png)
 
-#### step 3 Performance SLAs
+####  5. <a name='step3PerformanceSLAs'></a>step 3 Performance SLAs
 
 
 ![create-sla.png](image-sdwan/create-sla.png)
@@ -55,7 +53,7 @@
 
 ![sh-after-set-sla.png](image-sdwan/sh-after-set-sla.png)
 
-#### step 4  SD-WAN Rules
+####  6. <a name='step4SD-WANRules'></a>step 4  SD-WAN Rules
 
 ![create-rule.png](image-sdwan/create-rule.png)
 
