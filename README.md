@@ -1,17 +1,14 @@
 ﻿
 - [SD-WAN](#SD-WAN)
-- [Interface](#Interface)
-- [step 0.5 Interface  Role](#step0.5InterfaceRole)
-- [step 1 SD-WAN Zones](#step1SD-WANZones)
-- [step 2 Performance SLAs](#step2PerformanceSLAs)
-- [step 3  SD-WAN Rules](#step3SD-WANRules)
+- 0.5.[step 0.5 Interface  Role](#step0.5InterfaceRole)
+- 1. [step 1 SD-WAN Zones](#step1SD-WANZones)
+- 2. [step 2 Performance SLAs](#step2PerformanceSLAs)
+- 3. [step 3  SD-WAN Rules](#step3SD-WANRules)
 
 
 # SD-WAN
 ####  <a name='SD-WAN'></a>SD-WAN
    
-####  <a name='Interface'></a>Interface
-
 - the section sd-wan we are just foucus firewall 1 
 ![topology](image-sdwan/typology.png)
 
