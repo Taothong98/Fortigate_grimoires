@@ -1,7 +1,7 @@
 ﻿
--  1. [#This is topology for test in  lab,](#Thisistopologyfortestinlab)
+-  1. [This is topology for test in  lab,](#Thisistopologyfortestinlab)
 -  2. [Interface](#Interface)
--  3. [step 1 Interface  Role](##step1InterfaceRole)
+-  3. [step 1 Interface  Role](#step1InterfaceRole)
 -  4. [step 2 SD-WAN Zones](#step2SD-WANZones)
 -  5. [step 3 Performance SLAs](#step3PerformanceSLAs)
 -  6. [step 4  SD-WAN Rules](#step4SD-WANRules)
@@ -25,7 +25,7 @@
 ![shorolewan.png](image-sdwan/shorolewan.png)
 
 
-####  4. <a name='step2SD-WANZones'></a>step 2 SD-WAN Zones
+###  4. <a name='step2SD-WANZones'></a>step 2 SD-WAN Zones
 
 ![click-virtualwanlink.png](image-sdwan/click-virtualwanlink.png)
 
@@ -39,7 +39,7 @@
 
 ![after-add-int.png](image-sdwan/after-add-int.png)
 
-####  5. <a name='step3PerformanceSLAs'></a>step 3 Performance SLAs
+###  5. <a name='step3PerformanceSLAs'></a>step 3 Performance SLAs
 
 
 ![create-sla.png](image-sdwan/create-sla.png)
@@ -48,9 +48,16 @@
 
 ![sh-after-set-sla.png](image-sdwan/sh-after-set-sla.png)
 
-####  6. <a name='step4SD-WANRules'></a>step 4  SD-WAN Rules
+
+###  6. <a name='step4SD-WANRules'></a>step 4  SD-WAN Rules
+#### this step forces whether The application or destination out going to WAN1, WAN2, or load balance    
 
 ![create-rule.png](image-sdwan/create-rule.png)
+
+
+##### 2 example rule
+###### rule 1 for YouTube If the user in LAN uses the YouTube system, It select WAN at lowest SLA
+###### rule 2 for Facebook If the user in LAN uses the Facebook system, It select WAN 1 because it's static
 
 
 ![sd-wan-youtube-lb.png](image-sdwan/sd-wan-youtube-lb.png)
