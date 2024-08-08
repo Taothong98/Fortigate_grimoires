@@ -1,10 +1,10 @@
 ﻿
--  1. [SD-WAN](#SD-WAN)
--  2. [Interface](#Interface)
--  3. [step 0.5 Interface  Role](#step0.5InterfaceRole)
--  4. [step 1 SD-WAN Zones](#step1SD-WANZones)
--  5. [step 2 Performance SLAs](#step2PerformanceSLAs)
--  6. [step 3  SD-WAN Rules](#step3SD-WANRules)
+- [SD-WAN](#SD-WAN)
+- [Interface](#Interface)
+- [step 0.5 Interface  Role](#step0.5InterfaceRole)
+- [step 1 SD-WAN Zones](#step1SD-WANZones)
+- [step 2 Performance SLAs](#step2PerformanceSLAs)
+- [step 3  SD-WAN Rules](#step3SD-WANRules)
 
 
 # SD-WAN
