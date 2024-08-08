@@ -1,31 +1,34 @@
 ﻿
--  1. [This is topology for test in  lab,](#Thisistopologyfortestinlab)
+-  1. [SD-WAN](#SD-WAN)
 -  2. [Interface](#Interface)
--  3. [step 1 Interface  Role](#step1InterfaceRole)
--  4. [step 2 SD-WAN Zones](#step2SD-WANZones)
--  5. [step 3 Performance SLAs](#step3PerformanceSLAs)
--  6. [step 4  SD-WAN Rules](#step4SD-WANRules)
+-  3. [step 0.5 Interface  Role](#step0.5InterfaceRole)
+-  4. [step 1 SD-WAN Zones](#step1SD-WANZones)
+-  5. [step 2 Performance SLAs](#step2PerformanceSLAs)
+-  6. [step 3  SD-WAN Rules](#step3SD-WANRules)
 
 
 # SD-WAN
-####  1. <a name='Thisistopologyfortestinlab'></a>This is topology for test in  lab,, 
- 
-![topology](image-sdwan/typology.png)
-  - the section sd-wan we are just foucus firewall 1 
+####  <a name='SD-WAN'></a>SD-WAN
    
-####  2. <a name='Interface'></a>Interface
+####  <a name='Interface'></a>Interface
 
-![interfacewan](image-sdwan/interfacewan.png)
+- the section sd-wan we are just foucus firewall 1 
+![topology](image-sdwan/typology.png)
+
 - make sure whether interface wan both 2 can connect to the internet.
+![interfacewan](image-sdwan/interfacewan.png)
 
-##  <a name='step1InterfaceRole'></a>step 0.5 Interface  Role
+
+##  <a name='step0.5InterfaceRole'></a>step 0.5 Interface  Role
+#### This step just gives a name and role to interface 
 
 ![rolewan1.png](image-sdwan/rolewan1.png)
 ![rolewan2.png](image-sdwan/rolewan2.png)
 ![shorolewan.png](image-sdwan/shorolewan.png)
 
 
-##  <a name='step2SD-WANZones'></a>step 1 SD-WAN Zones
+##  <a name='step1SD-WANZones'></a>step 1 SD-WAN Zones
+#### This step is the same as combination interface both WAN1 and WAN2 is Virtual-wan 
 
 ![click-virtualwanlink.png](image-sdwan/click-virtualwanlink.png)
 
@@ -39,7 +42,7 @@
 
 ![after-add-int.png](image-sdwan/after-add-int.png)
 
-##  <a name='step3PerformanceSLAs'></a>step 2 Performance SLAs
+##  <a name='step2PerformanceSLAs'></a>step 2 Performance SLAs
 #### This step is for creating performance measures, which we use for comparative performance between WAN1 and WAN2.
 
 
@@ -47,11 +50,11 @@
 
 ![setting-sla.png](image-sdwan/setting-sla.png)
 
--It success
+- It success
 ![sh-after-set-sla.png](image-sdwan/sh-after-set-sla.png)
 
 
-##  <a name='step4SD-WANRules'></a>step 3  SD-WAN Rules
+##  <a name='step3SD-WANRules'></a>step 3  SD-WAN Rules
 #### this step forces whether The application or destination out going to WAN1, WAN2, or load balance    
 
 ![create-rule.png](image-sdwan/create-rule.png)
