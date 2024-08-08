@@ -9,14 +9,15 @@
 ![interfacewan](image-sdwan/interfacewan.png)
 - make sure whether interface wan both 2 can connect to the internet.
 
-#### step 1
+#### step 1 Interface  Role
 
 ![rolewan1.png](image-sdwan/rolewan1.png)
 ![rolewan2.png](image-sdwan/rolewan2.png)
 ![shorolewan.png](image-sdwan/shorolewan.png)
 
 
-#### step 2
+#### step 2 SD-WAN Zones
+
 ![click-virtualwanlink.png](image-sdwan/click-virtualwanlink.png)
 
 ![interfacemember.png](image-sdwan/interfacemember.png)
@@ -27,6 +28,25 @@
 
 ![addintface-invirtual-wan-link.png](image-sdwan/addintface-invirtual-wan-link.png)
 
+![after-add-int.png](image-sdwan/after-add-int.png)
+
+#### step 3 Performance SLAs
 
 
-#### step 3
+![create-sla.png](image-sdwan/create-sla.png)
+
+![setting-sla.png](image-sdwan/setting-sla.png)
+
+![sh-after-set-sla.png](image-sdwan/sh-after-set-sla.png)
+
+#### step 4  SD-WAN Rules
+
+![create-rule.png](image-sdwan/create-rule.png)
+
+
+![sd-wan-youtube-lb.png](image-sdwan/sd-wan-youtube-lb.png)
+
+![sd-wan-facebook-static.png](image-sdwan/sd-wan-facebook-static.png)
+
+
+# DHCP
