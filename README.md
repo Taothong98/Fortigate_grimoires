@@ -52,7 +52,7 @@
 
 
 ##  <a name='step3SD-WANRules'></a>step 3  SD-WAN Rules
-#### this step forces whether The application or destination out going to WAN1, WAN2, or load balance    
+#### This step forces whether The application or LAN to destination out going to WAN1, WAN2, or load balance    
 
 ![create-rule.png](image-sdwan/create-rule.png)
 
@@ -61,9 +61,9 @@
 ###### rule 1 for YouTube If the user in LAN uses the YouTube system, It select WAN at lowest SLA
 ###### rule 2 for Facebook If the user in LAN uses the Facebook system, It select WAN 1 because it's static
 
-- Youtube rule
+- Youtube Rule
 ![sd-wan-youtube-lb.png](image-sdwan/sd-wan-youtube-lb.png)
-- Facebook rule
+- Facebook Rule
 ![sd-wan-facebook-static.png](image-sdwan/sd-wan-facebook-static.png)
 
 
